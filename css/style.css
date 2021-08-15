@@ -247,7 +247,6 @@ label {
     font-size: 16px;
     font-weight: normal;
     pointer-events: none;
-    background: white;
     height: 30px;
 }
 .form-field {
@@ -322,7 +321,7 @@ footer .center {
     max-width: 900px;
 }
 .popup-open .popup-block {
-    top: 20px;
+    top: 0;
     pointer-events: auto;
 }
 
@@ -394,6 +393,7 @@ footer .center {
 .policy-popup {
     display: none;
     background: #fff;
+    margin-top: 20px;
     padding: 20px 20px 40px;
     position: relative;
     z-index: 1;
